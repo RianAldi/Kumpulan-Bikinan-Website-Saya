@@ -49,6 +49,7 @@ body{
     background-color:gainsboro;
     font-family: sans-serif;
     height: 1000px;
+    background-image: url(img/background.png);
 }
 
 .container{
@@ -85,9 +86,10 @@ body{
 }
 
 .hero{
-    height: 600px;
+    height: 500px;
     background-image: url(img/gunungsalju.jpg);
     background-size: cover;
+    background-position: 0 -190px;
 }
 
 .main{
