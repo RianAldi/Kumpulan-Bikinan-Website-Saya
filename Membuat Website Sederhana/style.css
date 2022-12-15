@@ -68,14 +68,17 @@ body{
     font-family: sans-serif;
     height: 1000px;
     background-image: url(img/background.png);
+    position: relative;
 }
 
 .container{
     width: 80%;
     margin:  70px auto;
     background-color: white;
-    position:relative;
+    position: relative;
 }
+
+
 
 .toolbar{
     position: fixed;
@@ -93,8 +96,9 @@ body{
     background-image: url(img/ribbon.png);
     display: inline-block;
     position: absolute;
-    top:-19px;
-    left: 1000px;
+    top:-20px;
+    right: -80px;
+    background-repeat: no-repeat;
 }
 
 .header{
