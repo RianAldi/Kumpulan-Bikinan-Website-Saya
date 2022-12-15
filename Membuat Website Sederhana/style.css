@@ -72,8 +72,29 @@ body{
 
 .container{
     width: 80%;
-    margin: auto;
+    margin:  70px auto;
     background-color: white;
+    position:relative;
+}
+
+.toolbar{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: black;
+    z-index: 99999;
+}
+
+.ribbon{
+    width: 300px;
+    height: 181px;
+    background-image: url(img/ribbon.png);
+    display: inline-block;
+    position: absolute;
+    top:-19px;
+    left: 1000px;
 }
 
 .header{
@@ -157,9 +178,7 @@ body{
     padding-right: 10px;
 }
 
-.sidebar p{
-   
-}
+
 
 .sidebar h3{
     font-weight: bold;
